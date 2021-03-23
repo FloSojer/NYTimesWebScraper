@@ -13,6 +13,7 @@ def smllhdLinesFiltered(smallHLines):
         '2021',
         'Disney+',
         'The New York Times Company',
+        'The New York Times',
         'Ashley Gilbertson / VII,  for The New York Times',
         'Erin Scott for The New York Times',
         'Anna Moneymaker for The New York Times',
@@ -38,7 +39,33 @@ def smllhdLinesFiltered(smallHLines):
         'Gilles Sabrié for The New York Times',
         'Monica Almeida/The New York Times',
         'Anton Vaganov/Reuters',
-        'JerSean Golatt for The New York Times'
+        'JerSean Golatt for The New York Times',
+        'On March 1',
+        'Loading',
+        'Victor Llorente for The New York Times',
+        'Michael Young for The New York Times',
+        'Chip Somodevilla/Getty Images',
+        'Shannon Stapleton/Reuters',
+        'Nicole Craine for The New York Times',
+        'Jim Wilson/The New York Times',
+        'Stephen Maturen/Getty Images',
+        'On March 18',
+        '12%',
+        'At least one dose',
+        '23%',
+        '13%',
+        'On March 19',
+        'The Endless Stream',
+        'Sabrina Santiago for The New York Times',
+        'Ramsay de Give for The New York Times',
+        'Fully vaccinated',
+        'The Endless Stream',
+        'Daniel Berehulak for The New York Times',
+        'Ruth Fremson/The New York Times',
+        'Ryan Young for The New York Times',
+        'Doug Mills/The New York Times',
+        'Jutharat Pinyodoonyachet for The New York Times',
+        'Laura Boushnak for The New York Times',
     ]
     #Safe all elements in Lowercase to a list
     listNoString = [x.lower() for x in listNoString]
@@ -63,7 +90,12 @@ def h3HeadlinesNYT(h3Headlines):
     listNoString = [
         'Opinion',
         'Editors’ Picks',
-        'Advertisement'
+        'Advertisement',
+        'Worldwide ›',
+        'U.S. hot spots ›',
+        'U.S. vaccinations ›',
+        'Other trackers:',
+        'Vaccine tracker ›'
     ]
     listNoString = [x.lower() for x in listNoString]
 
@@ -88,7 +120,10 @@ def h2HeadlinesNYT(h2Headlines):
         'In the ‘At Home’ Newsletter',
         'Site Information Navigation',
         'Listen to ‘The Argument’',
-        'Listen to ‘The Daily’'
+        'Listen to ‘The Daily’',
+        'Live',
+        'Listen to ‘Still Processing’',
+        'Great Weekend Listens',
     ]
     listNoString = [x.lower() for x in listNoString]
 
